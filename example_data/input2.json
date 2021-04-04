@@ -1,0 +1,16 @@
+[
+    {
+        "windows": {
+            "name": "machine1",
+            "location": "westeurope",
+            "type": "windows",
+            "storageProfile": {
+                "osDisk": {
+                    "managedDisk": {
+                        "id": "f3779e61-9bc8-4d7c-a659-2dd91a8a6167"
+                    }
+                }
+            }
+        }
+    }
+]

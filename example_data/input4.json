@@ -1,0 +1,41 @@
+[
+    {
+        "windows": {
+            "name": "machine1",
+            "location": "westeurope",
+            "type": "windows",
+            "storageProfile": {
+                "osDisk": {
+                }
+            }
+        }
+    },
+    {
+        "linux": {
+            "name": "machine2",
+            "location": "eastus",
+            "type": "solaris",
+            "storageProfile": {
+                "osDisk": {
+                    "managedDisk": {
+                        "id": "d352cb25-da51-4389-a7a9-44467454b07e"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "splunk": {
+            "name": "machine3",
+            "location": "francecentral",
+            "type": "linux",
+            "storageProfile": {
+                "osDisk": {
+                    "managedDisk": {
+                        "id": "05470de3-393a-46b0-8f03-e323d2269e5e"
+                    }
+                }
+            }
+        }
+    }
+]

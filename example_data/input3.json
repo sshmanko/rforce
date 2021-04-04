@@ -1,0 +1,23 @@
+[
+    {
+        "windows": {
+            "name": "machine1",
+            "location": "westeurope",
+            "type": "windows"
+        }
+    },
+    {
+        "linux": {
+            "name": "machine2",
+            "location": "eastus",
+            "type": "solaris",
+            "storageProfile": {
+                "osDisk": {
+                    "managedDisk": {
+                        "id": "d352cb25-da51-4389-a7a9-44467454b07e"
+                    }
+                }
+            }
+        }
+    }
+]
